@@ -1,0 +1,68 @@
+body{
+    margin: 10px;
+    margin-left: 15px;
+    background-image: url(../images/top-view-orange-cake-slice-sweet-delicious-tasty-cream-colored-wooden-desk-yellow-background-sweet-sugar-biscuit.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.imgsites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 650px;
+    box-shadow: 5px 5px 5px#ffaf33;
+}
+
+.imgsite {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.imgsite:hover{
+    border: inset 3px  #dfae64 ;
+}
+
+.textsites {
+    max-width: 500px;
+}
+
+.heading {
+    width: 100%;
+    text-align: start;
+    margin-right: 20px;
+}
+
+.ingredients{
+    background-color: #fff0d9;
+    margin: 10px;
+    margin-left: 30px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ffaf33;
+}
+
+.image-caption {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold; 
+  }
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
