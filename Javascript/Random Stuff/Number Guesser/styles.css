@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background: linear-gradient(	#dcf3ff, 	#baf2ef, #a2d2df);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 200px;
+}
+
+h3{
+    color:black;
+    font-size: 30px;
+}
