@@ -1,0 +1,67 @@
+body{
+    background: url(images/simple-flower-with-purple-background_1046529-91.avif);
+}
+
+#header{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: inset 5px #cdc0eb;
+    background-color: #e9ccfd;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px #c2b0ed;
+}
+
+#display{
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+#controls button{
+    margin: 5px;
+    padding: 5px;
+    min-width: 175px;
+    cursor: pointer;
+}
+
+#start{
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #FAE6FA;
+    transition: background-color 0.75s;
+    
+}
+
+#stop{
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #FAE6FA;
+    transition: background-color 0.75s;
+}
+
+#reset{
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #FAE6FA;
+    transition: background-color 0.75s;
+}
+
+#start:hover{
+    background-color: #f2c4f2;
+}
+
+#stop:hover{
+    background-color: #f2c4f2;
+}
+
+#reset:hover{
+    background-color: #f2c4f2;
+}
