@@ -1,0 +1,27 @@
+body{
+    background-image: url(images/tropical-beach-2880x1800-14811.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+#clock{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.03);
+
+    width: 200%;
+}
