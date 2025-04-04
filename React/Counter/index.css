@@ -1,0 +1,28 @@
+body{
+  background:linear-gradient(white, #d593d5);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.counter{
+  text-align: center;
+  font-family: "Droid Sans Mono Dotted";
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+
+.buttons{
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 30px;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: #dbbcfd;
+  border: inset 5px #bb80ff;
+}
