@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(12, 11, 39);
+    overflow: hidden;
+  }
+  
+  div {
+    background: url("star-512.webp");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    pointer-events: none;
+    background-size: cover;
+    animation: animate 8s linear;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      transform: translate(-50%, 3000%);
+    }
+  }
