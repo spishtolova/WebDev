@@ -1,0 +1,51 @@
+.todo-app {
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 10px; 
+    box-shadow: 2px 3px 5px #9d8189;
+}
+
+#inputtext{
+    border: none;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#tasks li {
+    position: relative;
+    list-style: none;
+    padding-left: 40px; 
+    margin-bottom: 10px;
+    line-height: 28px;
+    text-align: start;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 28px;
+    background-image: url('9641510.png'); 
+}
+
+#tasks li.checked {
+    background-image: url('checked-512.webp'); 
+    color: gray;
+    text-decoration: line-through;
+}
+
+#tasks li span{
+    position: absolute;
+    font-size: 22px;
+    color: gray;
+    text-align: center;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    margin-bottom: 2px;
+}
+
+#tasks li span:hover{
+    background-color: #cfcfcf;
+    border-radius: 20px;
+}
